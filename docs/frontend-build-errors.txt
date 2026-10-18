@@ -1,0 +1,49 @@
+src/components/task/task-dependency-graph.vue(64,10): error TS6133: 'getTaskDependencyDetail' is declared but its value is never read.
+src/composables/use-auth.ts(21,9): error TS6133: 'isLogin' is declared but its value is never read.
+src/composables/use-system-config.ts(26,5): error TS2322: Type 'input<S>' is not assignable to type '_PartialDeep<_PartialDeep<input<S>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }> | null | undefined'.
+  Type '{ [x: string]: any; }' is not assignable to type '_PartialDeep<_PartialDeep<input<S>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }>'.
+src/composables/use-system-config.ts(59,7): error TS2322: Type 'input<S>' is not assignable to type '_PartialDeep<_PartialDeep<input<S>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }> | undefined'.
+  Type '{ [x: string]: any; }' is not assignable to type '_PartialDeep<_PartialDeep<input<S>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }>, { recurseIntoArrays: false; allowUndefinedInNonTupleArrays: true; }>'.
+src/pages/tasks/components/data-table-row-actions.vue(21,7): error TS6133: 'authStore' is declared but its value is never read.
+src/pages/tasks/components/data-table-toolbar.vue(13,7): error TS6133: 'isFiltered' is declared but its value is never read.
+src/pages/tasks/components/task-detail-dialog.vue(355,10): error TS6133: 'formatFieldValue' is declared but its value is never read.
+src/pages/tasks/components/task-form.vue(2,38): error TS6133: 'ref' is declared but its value is never read.
+src/pages/tasks/components/task-resource-dialog.vue(106,7): error TS6133: 'isAddingDependency' is declared but its value is never read.
+src/pages/tasks/components/task-resource-dialog.vue(107,7): error TS6133: 'isRemovingDependency' is declared but its value is never read.
+src/pages/tasks/components/task-resource-dialog.vue(114,10): error TS6133: 'hasCycleDependency' is declared but its value is never read.
+src/pages/tasks/index.vue(15,1): error TS6133: 'columns' is declared but its value is never read.
+src/pages/tasks/index.vue(72,10): error TS6133: 'toggleExpand' is declared but its value is never read.
+src/pages/tasks/index.vue(79,10): error TS6133: 'isExpanded' is declared but its value is never read.
+src/pages/tasks/index.vue(194,10): error TS6133: 'getMindmapDependents' is declared but its value is never read.
+src/pages/tasks/index.vue(198,10): error TS6133: 'getTotalDependencies' is declared but its value is never read.
+src/pages/tasks/index.vue(202,10): error TS6133: 'getTasksWithDependencies' is declared but its value is never read.
+src/pages/tasks/index.vue(206,10): error TS6133: 'getRootTasks' is declared but its value is never read.
+src/pages/tasks/index.vue(279,60): error TS6133: 'levelIndex' is declared but its value is never read.
+src/pages/tasks/index.vue(422,10): error TS6133: 'handleRestoreTask' is declared but its value is never read.
+src/pages/tasks/index.vue(428,10): error TS6133: 'handleClearDeletedTasks' is declared but its value is never read.
+src/pages/tasks/index.vue(484,10): error TS6133: 'getOperationLabel' is declared but its value is never read.
+src/pages/tasks/index.vue(487,10): error TS6133: 'formatDeletedDate' is declared but its value is never read.
+src/pages/tasks/index.vue(493,10): error TS6133: 'formatLogDate' is declared but its value is never read.
+src/pages/teams/[teamId]/components/team-task-row-actions.vue(5,41): error TS6133: 'UserPlus' is declared but its value is never read.
+src/pages/teams/[teamId]/components/team-task-row-actions.vue(13,3): error TS6133: 'DropdownMenuSeparator' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(45,16): error TS6133: 'Eye' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(45,37): error TS6133: 'UserPlus' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(45,47): error TS6133: 'Link2' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(45,70): error TS6133: 'ChevronDown' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(68,10): error TS6133: 'toggleExpand' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(75,10): error TS6133: 'isExpanded' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(79,10): error TS6133: 'getRootTasks' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(217,60): error TS6133: 'levelIndex' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(289,75): error TS6133: 'refetchTasks' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(354,7): error TS6133: 'isUpdatingTask' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(369,7): error TS6133: 'isStatusUpdating' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(407,7): error TS6133: 'assignTaskMutation' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(424,10): error TS6133: 'switchTab' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(535,10): error TS6133: 'formatFieldValue' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(595,7): error TS6133: 'getMindmapDependents' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(624,7): error TS6133: 'getTotalDependencies' is declared but its value is never read.
+src/pages/teams/[teamId]/index.vue(628,7): error TS6133: 'getTasksWithDependencies' is declared but its value is never read.
+src/pages/teams/[teamId]/members.vue(12,3): error TS6133: 'CardDescription' is declared but its value is never read.
+src/pages/teams/[teamId]/members.vue(47,45): error TS6196: 'TeamResponse' is declared but never used.
+src/pages/teams/[teamId]/members.vue(171,10): error TS6133: 'switchTab' is declared but its value is never read.
+src/pages/teams/index.vue(2,25): error TS6133: 'onMounted' is declared but its value is never read.
